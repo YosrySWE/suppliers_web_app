@@ -7,13 +7,21 @@
       "Lion@c.com",
       "Dog@c.com"
     ] },
+    "phone": { "regexp": "#[0-9]{9}" },
+    "role": { "string": {} },
+    "token": { "string": {} },
+    "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"} }
+  },
+  "Supplier": {
+    "name": { "regexp": "[A-Z][a-z]{5,10}"  },
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
     "phone": { "string": {} },
     "role": { "string": {} },
     "token": { "string": {} },
     "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
       "max": "2020-12-31T23:59:59Z"} }
   },
-  "Supplier": {},
   "Store": {},
   "Contact": {}
 }
