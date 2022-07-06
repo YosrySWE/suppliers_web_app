@@ -1,8 +1,11 @@
 {
   "User": {
     "name": { "string": {} },
-     "phone": { "string": {} },
-     "token": { "string": {} }
+    "email": { "string": {} },
+    "phone": { "string": {} },
+    "role": { "string": {} },
+    "token": { "string": {} },
+    "createAt": { "string": {} }
   },
   "Supplier": {},
   "Store": {},
