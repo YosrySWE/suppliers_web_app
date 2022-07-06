@@ -25,7 +25,7 @@
       "Butchery"
     ] },
     "highPriority": { "boolean": {} },
-    "store": {
+    "stores": {
       "belongsTo": "Store"
     },
     "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
@@ -33,7 +33,7 @@
   },
   "Store": {
     "name": { "regexp": "[A-Z][a-z]{5,10}"  },
-    "contact": {
+    "contacts": {
        "hasMany": "Contact"
     }
   },
