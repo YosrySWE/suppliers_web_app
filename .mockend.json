@@ -18,7 +18,12 @@
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
     "phone": { "regexp": "#[0-9]{9}" },
     "section_id": { "int": {"min": 0, "max": 1000000} },
-    "section_name": { "string": {} },
+    "section_name": { "string":  [
+      "Devices",
+      "Grocery",
+      "Cheese",
+      "Butchery"
+    ] },
     "highPriority": { "boolean": {} },
     "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
       "max": "2020-12-31T23:59:59Z"} }
