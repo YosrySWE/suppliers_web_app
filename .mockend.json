@@ -2,7 +2,7 @@
   "User": {
     "name": { "string": {} },
      "phone": { "string": {} },
-     "token": { "string": {} },
+     "token": { "string": {} }
   },
   "Supplier": {},
   "Store": {},
