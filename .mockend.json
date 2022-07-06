@@ -1,16 +1,8 @@
 {
   "User": {
-  { "title": { "string": {} }
+  "title": { "string": {} },
 
-{ "title": { "string": {} }
-
-{ "title": { "string": {} }
-
-{ "title": { "string": {} }
-
-{ "title": { "string": {} }
-
-
+ "title": { "string": {} }
   },
   "Supplier": {},
   "Store": {},
