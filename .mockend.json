@@ -1,11 +1,16 @@
 {
   "User": {
     "name": { "string": {} },
-    "email": { "string": {} },
+    "email": { "string": [
+      "Thor@c.com",
+      "Loki@c.com",
+      "Lion@c.com",
+      "Dog@c.com"
+    ] },
     "phone": { "string": {} },
     "role": { "string": {} },
     "token": { "string": {} },
-    "createAt": { "string": {} }
+    "createAt": { "dateTime": {} }
   },
   "Supplier": {},
   "Store": {},
