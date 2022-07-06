@@ -25,18 +25,16 @@
       "Butchery"
     ] },
     "highPriority": { "boolean": {} },
-    "stores": {
-      "Store": {}
-    },
-    "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
-      "max": "2020-12-31T23:59:59Z"} }
-  },
-  "Store": {
+    "Store": {
     "name": { "regexp": "[A-Z][a-z]{5,10}"  },
     "contacts": {
        "hasMany": "Contact"
     }
   },
+    "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"} }
+  },
+  
   "Contact": {
       "name": { "regexp": "[A-Z][a-z]{5,10}"  },
       "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
