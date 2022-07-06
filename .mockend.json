@@ -1,15 +1,4 @@
 {
-  "Supplier": {
-    "id": { "int": { "min": 0, "max": 1000000 } },
-    "name": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
-    "email": { "string": {"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } },
-    "title": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
-    "phone": { "string": {"regexp": "#[0-9]{6}" } },
-    
-    "store": {
-      "belongsTo": "Store"
-    }
-  },
   "Store": {
     "id": { "int": { "min": 0, "max": 1000000 } },
     "name": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
