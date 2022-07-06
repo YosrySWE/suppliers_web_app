@@ -3,7 +3,6 @@
     "name": { "string": {} },
     "phone": { "string": {} },
     "token": { "string": {} },
-    "createdAt": { "dateTime": { "min": "2010-01-01T00:00:00Z", "max": "2022-7-31T23:59:59Z" } },
   },
   "Supplier": {},
   "Store": {},
