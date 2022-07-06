@@ -17,7 +17,7 @@
     "name": { "regexp": "[A-Z][a-z]{5,10}"  },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
     "phone": { "regexp": "#[0-9]{9}" },
-    "section_id": { "int": {} },
+    "section_id": { "int": {"min": 0, "max": 1000000} },
     "section_name": { "string": {} },
     "highPriority": { "boolean": {} },
     "createAt": { "dateTime": {"min": "2010-01-01T00:00:00Z",
