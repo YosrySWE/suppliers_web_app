@@ -2,9 +2,9 @@
   "Supplier": {
     "id": { "int": { "min": 0, "max": 1000000 } },
     "name": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
-    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "title": { "string": {} },
-    "phone": { "regexp": "#[0-9]{6}" },
+    "email": { "string": "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" } },
+    "title": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
+    "phone": { "string": {"regexp": "#[0-9]{6}" } },
     
     "store": {
       "belongsTo": "Store"
@@ -14,7 +14,7 @@
     "id": { "int": { "min": 0, "max": 1000000 } },
     "name": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
     "owner_name": { "string": {"regexp": "[A-Z][a-z]{5,10}" } },
-    "owner_email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
-    "owner_phone": { "regexp": "#[0-9]{6}" },
+    "owner_email": { "string": {"regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" }},
+    "owner_phone": { "string": {"regexp": "#[0-9]{6}"} },
   }
 }
