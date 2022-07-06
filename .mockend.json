@@ -31,13 +31,8 @@
   },
    "Store": {
         "store_name": { "regexp": "[A-Z][a-z]{5,10}"  },
-        "contacts": {
-            "contacts_name": { "regexp": "[A-Z][a-z]{5,10}"  },
-            "contacts_email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
-            "contacts_phone": { "regexp": "#[0-9]{9}" }
-        }
+        "owner_name": { "regexp": "[A-Z][a-z]{5,10}"  },
+        "owner_email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"},
+        "owner_phone": { "regexp": "#[0-9]{9}" }
   },
-  "Contact": {
-      
-  }
 }
