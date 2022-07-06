@@ -1,6 +1,7 @@
 {
-  "Store": {
-    "title": { "string": {} },
-  }
+  "User": {},
+  "Post": {},
+  "Comment": {},
+  "Person": {},
+  "City": {}
 }
- 
