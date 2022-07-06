@@ -1,18 +1,14 @@
 {
-  "User": {
-        "title": { "string": {} }
-  },
   "Post": {
-        "title": { "string": {} }
-
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
   "Comment": {
-      "title": { "string": {} }
-},
-  "Person": {    
-    "title": { "string": {} }
-},
-  "City": {
-      "title": { "string": {} }
-}
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
