@@ -1,0 +1,18 @@
+{
+  "User": {
+        "title": { "string": {} }
+  },
+  "Post": {
+        "title": { "string": {} }
+
+  },
+  "Comment": {
+      "title": { "string": {} }
+},
+  "Person": {    
+    "title": { "string": {} }
+},
+  "City": {
+      "title": { "string": {} }
+}
+}
