@@ -1,7 +1,6 @@
 {
   "User": {},
-  "Post": {},
-  "Comment": {},
-  "Person": {},
-  "City": {}
+  "Supplier": {},
+  "Store": {},
+  "Contact": {}
 }
